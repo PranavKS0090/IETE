@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bsha {
+    box-shadow: 20px 20px 50px #2568a0;
+}
+
+.logo {
+    width: 80px;
+    height: 70px;
+}
+
+.logo-h {
+    color: #fff;
+    font-size: 26px;
+    padding-top: 16px;
+}
+
+.logo-p {
+    color: #fff;
+    font-size: 70%;
+    padding-top: 20px;
+    padding-right: 18px;
+}
+
+.dcon {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.img {
+    width: 50vw;
+    height: 400px;
+
+}
+
+.aboutbg {
+    background-color: #003282;
+    text-align: center;
+    font-weight: normal;
+
+}
+
+.abouth1 {
+    font-weight: bold;
+}
+
+.cont {
+    background-color: #011591;
+    padding: 50px;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.Conhead {
+    color: white;
+    padding-top: 15px;
+    font-size: 38px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.fot {
+    background-color: #000;
+    color: #fff;
+}
+
+.footspan {
+    font-weight: bold;
+}
+
+.iconbg {
+    background-color: darkblue;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 100%;
+    text-align: center;
+    transition: 1s;
+}
+
+.iconbg:hover {
+
+    background-color: green;
+}
+
+
+.input {
+    background-color: white;
+    height: 34px;
+    width: 15rem;
+}
+
+.btn-sub {
+    background-color: #1451a3;
+    border-radius: 20px;
+    border-style: hidden;
+    color: white;
+    height: 38px;
+    width: 6rem;
+}
+
+.bgcol {
+    background-color: rgb(160, 20, 90);
+    width: 40%;
+    margin: 20px;
+    padding: 30px;
+}
+
+.count {
+    color: #012049;
+    font-weight: bold;
+}
+
+.countSub {
+    color: #0a0201;
+    font-size: 24px;
+}
+
+.car {
+    border: 2px solid grey;
+    height: 90px;
+    width: 100%;
+    margin: 10px;
+    transition: 1s;
+}
+
+.car:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+.car2 {
+    border: 5px solid #012049;
+    width: 100%;
+    margin: 10px;
+}
+
+.con-ani {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(-20px)
+    }
+}
+
+.car1 {
+    background-color: #1f2dab;
+    opacity: 0.7;
+    color: white;
+    width: 90%;
+}
+
+#backgroundImage {
+    width: 100%;
+    min-height: 100vh;
+    height: max-content;
+    background: linear-gradient(rgba(0, 17, 255, 0.3), rgba(0, 0, 0, 0.3)), url(https://unitus.vc/wp-content/uploads/2019/09/Indian-students-2-1-600x400.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+}
+
+.subin {
+    border-style: hidden;
+    border-radius: 20px;
+    padding: 0;
+}
+
+.contact {
+    background-color: #0d0b0d;
+    color: grey;
+    padding-left: 50px;
+
+}
+.committeecard {
+    display: flex;
+    justify-content: center;
+}
+
+.committeecard1 {
+    background-color: #F9FDFF;
+    margin-top: 50px;
+}
+
+.committeeimg {
+    width: 450px;
+    height: 500px;
+}
+
+.mem-bluecard {
+    background-color: blue;
+    width: 330px;
+    border-radius: 10px;
+}
+
+.mem-whitecard {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 330px;
+}
+
+.mem-whitecard a p {
+    color: black;
+}
+
+.mem-whitecard a p span {
+    color: green;
+}
+
+h5 {
+    text-decoration: underline;
+}
+
+button.btn-sub:hover {
+    background-color: green;
+}
+
+.table_1 {
+    border-color: grey;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.iconbg {
+    background-color: darkblue;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.locIcon {
+    background-color: #caded5;
+    border-radius: 30px;
+    height: 35px;
+    font-size: 18px;
+    width: 35px;
+}
+
+i.locIcon:hover {
+    background-color: rgb(30, 48, 80);
+    color: white;
+}
+
+.inputEl {
+    border-color: #42454f;
+    border-style: solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 500px;
+    display: block;
+}
+
+.textEl {
+    border-color: #42454f;
+    border-style: solid;
+    border-radius: 10px;
+    margin-left: 20px;
+    display: block;
+}
+
